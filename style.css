@@ -1,0 +1,30 @@
+#brittanie-image {
+  height: 500px;
+  width: 400px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+  }
+}
+@media only screen and (max-width: 400px) {
+  body {
+  }
+}
+
+@media only screen and (max-width: ) {
+  body {
+  }
+}
+.bg-light {
+  background-color: yellow;
+}
+form {
+  margin-left: 100px;
+}
+#exampleFormControlInput1 {
+  padding: 30px;
+  width: 500px;
+}
+#navbarText {
+  float: right;
+}
