@@ -15,11 +15,13 @@
   body {
   }
 }
-.bg-light {
-  background-color: yellow;
+.navbar, .navbar-extend, .navbar-expand-lg, .navbar-expand-md, .navbar-extend-sm, .navbar-light, .bg-light{
+  background-color: .bg-light {
+    background-color: #FFC6B6;
+;
 }
 form {
-  margin-left: 100px;
+  margin-left: 150px;
 }
 #exampleFormControlInput1 {
   padding: 30px;
@@ -27,4 +29,8 @@ form {
 }
 #navbarText {
   float: right;
+}
+
+#britt-about {
+  text-align: center;
 }
