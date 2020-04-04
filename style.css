@@ -2,7 +2,7 @@
   height: 500px;
   width: 400px;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   body {
   }
 }
@@ -14,12 +14,22 @@
 @media only screen and (max-width: ) {
   body {
   }
+} */
+/* .navbar,
+.navbar-extend,
+.navbar-expand-lg,
+.navbar-expand-md,
+.navbar-extend-sm,
+.navbar-light,
+.bg-light {
+  
+  background-color: #ffc6b6;
+} */
+
+.nav-color {
+  background-color: #ffc6b6 !important;
 }
-.navbar, .navbar-extend, .navbar-expand-lg, .navbar-expand-md, .navbar-extend-sm, .navbar-light, .bg-light{
-  background-color: .bg-light {
-    background-color: #FFC6B6;
-;
-}
+
 form {
   margin-left: 150px;
 }
@@ -33,4 +43,28 @@ form {
 
 #britt-about {
   text-align: center;
+}
+
+.navbar-brand,
+.nav-link {
+  font-family: "Gruppo", cursive;
+}
+.navbar-brand {
+  font-size: 28px;
+}
+.nav-link {
+  font-size: 20px;
+}
+h1 {
+  font-family: "Shadows Into Light Two", cursive;
+  color: #689f38;
+}
+.form-name,
+.form-group {
+  font-family: "Gruppo", cursive;
+}
+.card-text {
+  text-align: center;
+  font-family: "Delius", cursive;
+  color: #007788;
 }
