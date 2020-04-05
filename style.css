@@ -108,3 +108,17 @@ body {
   background-image: url("https://images.unsplash.com/photo-1557411197-336ed936e9fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
   background-attachment: fixed;
 }
+.btn,
+.btn-primary {
+  margin: 25px;
+  background-color: #ffc6b6;
+  color: #4c4033;
+  font-family: "Gruppo", cursive;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #ce9dd9;
+  color: white;
+}
