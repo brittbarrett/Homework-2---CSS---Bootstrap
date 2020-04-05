@@ -40,11 +40,21 @@ form {
 #navbarText {
   float: right;
 }
-
 #britt-about {
-  text-align: center;
+  color: #4c4033;
+  font-family: "Delius", cursive;
+  font-family: "Comic Neue", cursive;
 }
-
+.navbar,
+.navbar-extend,
+.navbar-expand-lg,
+.navbar-expand-md,
+.navbar-expand-sm {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 .navbar-brand,
 .nav-link {
   font-family: "Gruppo", cursive;
@@ -57,14 +67,44 @@ form {
 }
 h1 {
   font-family: "Shadows Into Light Two", cursive;
-  color: #689f38;
+  color: #f79862;
 }
 .form-name,
 .form-group {
   font-family: "Gruppo", cursive;
+  font-size: 25px;
+  color: #b38b6d;
+  font-weight: bold;
 }
 .card-text {
   text-align: center;
   font-family: "Delius", cursive;
-  color: #007788;
+}
+.card-links {
+  color: #b38b6d;
+}
+.card-links:hover {
+  color: #ce9dd9;
+}
+.row {
+  padding: 20px;
+}
+.col-lg-12,
+.col-mg-8,
+.col-sm-12 {
+  border-style: solid;
+  border-color: #ffb38a;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+hr {
+  height: 1px;
+  color: #ce9dd9;
+  background-color: #ce9dd9;
+  border: none;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1557411197-336ed936e9fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+  background-attachment: fixed;
 }
