@@ -1,7 +1,3 @@
-#brittanie-image {
-  height: 500px;
-  width: 400px;
-}
 /* @media only screen and (max-width: 600px) {
   body {
   }
@@ -25,7 +21,10 @@
   
   background-color: #ffc6b6;
 } */
-
+#brittanie-image {
+  height: 500px;
+  width: 400px;
+}
 .nav-color {
   background-color: #ffc6b6 !important;
 }
@@ -121,4 +120,11 @@ body {
 .btn:hover {
   background-color: #ce9dd9;
   color: white;
+}
+.flexbox,
+.bg-white,
+.p-4,
+.m-auto,
+.m-sm-4 {
+  padding-top: 25px;
 }
