@@ -13,6 +13,8 @@
 
 - was unable to get the footer to appear on the bottom of the screen even after looking at bootstrap documentation and applying the correct classes. 
 
+- my .btn:active class is not styling properly for some reason. 
+
 ## Directions
 
 - Create the following files files: `index.html`, `portfolio.html` and `contact.html`.

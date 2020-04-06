@@ -106,6 +106,7 @@ hr {
 body {
   background-image: url("https://images.unsplash.com/photo-1557411197-336ed936e9fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
   background-attachment: fixed;
+  padding-top: 25px;
 }
 .btn,
 .btn-primary {
@@ -121,6 +122,19 @@ body {
   background-color: #ce9dd9;
   color: white;
 }
+.btn:active {
+  background-color: #ce9dd9;
+  color: white;
+}
+.btn:focus {
+  background-color: #ffc6b6;
+  color: #4c4033;
+}
+.btn:visited {
+  background-color: #ce9dd9;
+  color: white;
+}
+
 .flexbox,
 .bg-white,
 .p-4,
