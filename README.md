@@ -7,7 +7,7 @@
 
 - had trouble getting everything to be completely responsive - especially on Contact page 
 
-- would like to figure out how to get the "submit" button to connect to my email so that the messages are automatically sent to my inbox. 
+- would like to figure out how to get the "submit" button to connect to my email so that the messages are automatically sent to my inbox. i added the "mailto:" class but still trying to wokr out how i get that to submit an email to me. 
 
 - included a sticky navbar on the top, however causing problems with responsiveness and the content underneath it when sized down to smaller screen. 
 

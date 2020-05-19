@@ -118,11 +118,7 @@ body {
   border: none;
   font-weight: bold;
 }
-.btn:hover {
-  background-color: #ce9dd9;
-  color: white;
-}
-.btn:active {
+.btn:visited {
   background-color: #ce9dd9;
   color: white;
 }
@@ -130,7 +126,11 @@ body {
   background-color: #ffc6b6;
   color: #4c4033;
 }
-.btn:visited {
+.btn:hover {
+  background-color: #ce9dd9;
+  color: white;
+}
+.btn:active {
   background-color: #ce9dd9;
   color: white;
 }
