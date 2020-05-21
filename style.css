@@ -60,6 +60,7 @@ form {
 }
 .navbar-brand {
   font-size: 28px;
+  color: #3d2314;
 }
 .nav-link {
   font-size: 20px;
@@ -141,4 +142,45 @@ body {
 .m-auto,
 .m-sm-4 {
   padding-top: 25px;
+}
+
+.profile-links {
+  font-family: "Gruppo", cursive;
+  font-size: 17px;
+  font-weight: bold;
+
+  padding-top: 10px;
+}
+#github-link {
+  color: #b38b6d;
+}
+#github-link:hover {
+  color: #ce9dd9;
+}
+#linkedin-link {
+  color: #b38b6d;
+}
+#linkedin-link:hover {
+  color: #ce9dd9;
+}
+#resume-link {
+  color: #b38b6d;
+}
+#resume-link:hover {
+  color: #ce9dd9;
+}
+.card-header {
+  font-family: "Gruppo", cursive;
+  font-size: 23px;
+  background-color: #ffc6b6;
+  color: #30231d;
+  text-align: center;
+}
+
+.personal-links {
+  position: fixed;
+  padding: 2em;
+  left: 65%;
+  top: 17%;
+  transform: translateX(-50%);
 }
