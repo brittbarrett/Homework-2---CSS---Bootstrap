@@ -184,3 +184,18 @@ body {
   top: 17%;
   transform: translateX(-50%);
 }
+#git-icon {
+  height: 30px;
+  width: 30px;
+  float: right;
+}
+#linkedin-icon {
+  height: 30px;
+  width: 30px;
+  float: right;
+}
+#resume-icon {
+  height: 30px;
+  width: 30px;
+  float: right;
+}
