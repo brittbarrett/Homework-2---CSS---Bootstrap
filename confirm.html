@@ -18,19 +18,24 @@
       href="https://fonts.googleapis.com/css?family=Gruppo&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Delius&display=swap"
       rel="stylesheet"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
+  <!--body content-->
   <body>
-    <!--nav bar-->
+    <!--navbar-->
+
     <nav
       class="navbar navbar-extend navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-light nav-color flex-row flex-wrap"
     >
@@ -50,7 +55,6 @@
         </ul>
       </div>
     </nav>
-
     <!-- personal profile links card -->
 
     <div class="row personal-links">
@@ -71,7 +75,11 @@
               >
                 Github</a
               ><a href="https://github.com/brittbarrett" target="_blank"
-              ><img id="git-icon" src="./Assets/Images/github_icon.png" alt="github icon"></a> 
+                ><img
+                  id="git-icon"
+                  src="./Assets/Images/github_icon.png"
+                  alt="github icon"
+              /></a>
             </li>
             <li class="list-group-item">
               <a
@@ -81,10 +89,13 @@
               >
                 Linkedin</a
               ><a
-              href="https://www.linkedin.com/in/brittaniecbarrett/"
-              target="_blank"
-              ><img id="linkedin-icon" src="./Assets/Images/linkedin-icon.png" alt="linkedin icon"></a> 
-            </li>
+                href="https://www.linkedin.com/in/brittaniecbarrett/"
+                target="_blank"
+                ><img
+                  id="linkedin-icon"
+                  src="./Assets/Images/linkedin-icon.png"
+                  alt="linkedin icon"
+              /></a>
             </li>
             <li class="list-group-item">
               <a
@@ -93,7 +104,11 @@
                 target="_blank"
                 >Resume</a
               ><a href="./Brittanie_Clare_Barrett_Resume.pdf" target="_blank"
-              ><img id="resume-icon" src="./Assets/Images/resume-icon.png" alt="resume icon"></a> 
+                ><img
+                  id="resume-icon"
+                  src="./Assets/Images/resume-icon.png"
+                  alt="resume icon"
+              /></a>
             </li>
             <li class="list-group-item">
               <a
@@ -102,68 +117,41 @@
                 target="_blank"
                 >Email</a
               ><a href="mailto:britt.barrett302@gmail.com" target="_blank"
-              ><img id="email-icon" src="./Assets/Images/email-icon.png" alt="email icon"></a> 
+                ><img
+                  id="email-icon"
+                  src="./Assets/Images/email-icon.png"
+                  alt="email icon"
+              /></a>
             </li>
           </ul>
         </div>
       </div>
     </div>
 
-    <!--contact form-->
+    <!--grid layout-->
+
     <div class="flexbox bg-white p-4 m-auto m-sm-4" style="max-width: 900px;">
       <div class="row">
         <div class="col-md-12">
           <div class="page-header">
-            <h1>Contact</h1>
+            <h1>Confirmation</h1>
+
             <hr />
-
             <div class="row">
-              <form
-                method="post"
-                action="sendmail.php"
-                enctype="text/plain"
-              >
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <div class="form-name">
-                    <label for="exampleFormControlInput1">Name</label>
-                    <input
-                      type="name"
-                      class="form-control"
-                      id="exampleFormControlInput1 "
-                      placeholder="Name" required=""
-                    />
-                  </div>
-
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleFormControlInput1"
-                      placeholder="email@example.com" required=""
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea
-                      class="form-control"
-                      id="exampleFormControlTextarea1"
-                      rows="3" required=""
-                    ></textarea>
-                  </div>
-                </div>
-                <div class="col-md-auto"></div>
-                <button type="submit" value="Send" class="btn btn-primary" id="send">
-                  Submit
-                </button>
-              </form>
-             
+              <div class="col-12">
+                <h1>Thanks for your email!</h1>
+                <p>
+                  I promise to get back to your note as soon as i can! In the
+                  meantime please feel free to take a look at my personal
+                  profile links and various projects on my portfolio tab.
+                </p>
+              </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
+
     <!--FOOTER - won't appear on the bottom of my site and can't figure out why-->
 
     <!--<div class="container">
@@ -171,20 +159,5 @@
             <p class="navbar-text">Site built by Brittanie Barrett</p>
           </div>
         </div>-->
-
-
-        <!-- php stuff.... unsure -->
-        <!-- <?php
-if($_POST){
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-
-    // Input sanitation omitted
-
-    // Send the email
-    mail("my.email@gmail.com", "Message from {$name} - {$email}", $message);
-} -->
-    <script src="contact-script.js"></script>
   </body>
 </html>
