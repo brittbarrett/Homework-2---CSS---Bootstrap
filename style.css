@@ -169,6 +169,12 @@ body {
 #resume-link:hover {
   color: #ce9dd9;
 }
+#email-link {
+  color: #b38b6d;
+}
+#email-link:hover {
+  color: #ce9dd9;
+}
 .card-header {
   font-family: "Gruppo", cursive;
   font-size: 23px;
@@ -195,6 +201,11 @@ body {
   float: right;
 }
 #resume-icon {
+  height: 30px;
+  width: 30px;
+  float: right;
+}
+#email-icon {
   height: 30px;
   width: 30px;
   float: right;
